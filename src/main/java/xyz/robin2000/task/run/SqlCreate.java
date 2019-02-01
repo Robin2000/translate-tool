@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.util.Map;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 
 import xyz.robin2000.config.Config;
@@ -43,16 +44,18 @@ public class SqlCreate {
 			sql0 = task.getTranslate().getInsert();
 		}
 		
-		String sql=sql0.replaceAll("\\{CN_FIELD\\}", cnField);
-		sql=sql.replaceAll("\\{CN_VALUE\\}", MyStr.add('\'',cnStr.toString(),'\''));
+		String sql=StringUtils.replace(sql0, "{CN_FIELD}", cnField);
+		
+		sql=StringUtils.replace(sql, "{CN_VALUE}", MyStr.add('\'',cnStr.toString(),'\''));
 		
 		String pk[]=pkValue.toString().split("_");
-		sql=sql.replaceAll("\\{PK1_VALUE\\}", pk[0]);
+		sql=StringUtils.replace(sql, "{PK1_VALUE}", pk[0]);
+		
 		if(pk.length==2) {
-			sql=sql.replaceAll("\\{PK2_VALUE\\}", pk[1]);
+			sql=StringUtils.replace(sql, "{PK2_VALUE}", pk[1]);
 		}
 		if(pk.length==3) {
-			sql=sql.replaceAll("\\{PK3_VALUE\\}", pk[2]);
+			sql=StringUtils.replace(sql, "{PK3_VALUE}", pk[2]);
 		}
 		
 		writeFile(MyStr.add(sql,"\r\n"));

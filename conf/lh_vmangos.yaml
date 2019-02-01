@@ -15,7 +15,39 @@ task:
     translate: 
         update: UPDATE locales_quest SET {CN_FIELD}={CN_VALUE} WHERE entry={PK1_VALUE};
         insert: INSERT INTO locales_quest(entry,{CN_FIELD}) VALUES({PK1_VALUE},{CN_VALUE});
+        
+-   table: locales_item
+    source:
+        pk1: entry
+        en: name,description
+        cn: name_loc4,description_loc4
+        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+        pkMatch: true 
+    target:
+        pk1: entry
+        en: name,description
+        cn: name_loc4,description_loc4
+        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+    translate: 
+        update: UPDATE locales_item SET {CN_FIELD}={CN_VALUE} WHERE entry={PK1_VALUE};
+        insert: INSERT INTO locales_item(entry,{CN_FIELD}) VALUES({PK1_VALUE},{CN_VALUE});
 
+-   table: locales_gameobject
+    source:
+        pk1: entry
+        en: name
+        cn: name_loc4
+        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+        pkMatch: true 
+    target:
+        pk1: entry
+        en: name
+        cn: name_loc4
+        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+    translate: 
+        update: UPDATE locales_gameobject SET {CN_FIELD}={CN_VALUE} WHERE entry={PK1_VALUE};
+        insert: INSERT INTO locales_gameobject(entry,{CN_FIELD}) VALUES({PK1_VALUE},{CN_VALUE});
+                
 -   table: locales_creature
     source:
         pk1: entry
@@ -47,4 +79,50 @@ task:
         update: UPDATE locales_area SET {CN_FIELD}={CN_VALUE} WHERE entry={PK1_VALUE};
         insert: INSERT INTO locales_area(entry,{CN_FIELD}) VALUES({PK1_VALUE},{CN_VALUE});
         
+-   table: locales_points_of_interest
+    source:
+        pk1: entry
+        en: icon_name
+        cn: icon_name_loc4
+        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+    target:
+        pk1: entry
+        en: icon_name
+        cn: icon_name_loc4
+        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+    translate: 
+        update: UPDATE locales_points_of_interest SET {CN_FIELD}={CN_VALUE} WHERE entry={PK1_VALUE};
+        insert: INSERT INTO locales_points_of_interest(entry,{CN_FIELD}) VALUES({PK1_VALUE},{CN_VALUE});
 
+#-   table: locales_broadcast_text
+#    source:
+#        pk1: ID
+#        en: MaleText,FemaleText
+#        cn: MaleText_loc4,FemaleText_loc4
+#        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM broadcast_text A LEFT JOIN locales_broadcast_text B ON A.ID=B.ID
+#    target:
+#        pk1: ID
+#        en: MaleText,FemaleText
+#        cn: MaleText_loc4,FemaleText_loc4
+#        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM broadcast_text A LEFT JOIN locales_broadcast_text B ON A.ID=B.ID
+#    translate: 
+#        update: UPDATE locales_broadcast_text SET {CN_FIELD}={CN_VALUE} WHERE ID={PK1_VALUE};
+#        insert: INSERT INTO locales_broadcast_text(ID,{CN_FIELD}) VALUES({PK1_VALUE},{CN_VALUE});
+ 
+#-   table: locales_gossip_menu_option
+#    source:
+#        pk1: menu_id
+#        pk2: id
+#        en: option_text,box_text
+#        cn: option_text_loc4,box_text_loc4
+#        query: SELECT distinct A.{pk1},A.{pk2},B.{pk1} AS hasCN,{en},{cn} FROM gossip_menu_option A LEFT JOIN locales_gossip_menu_option B ON A.menu_id=B.menu_id AND A.id=B.id
+#    target:
+#        pk1: menu_id
+#        pk2: id
+#        en: option_text,box_text
+#        cn: option_text_loc4,box_text_loc4
+#        query: SELECT distinct A.{pk1},A.{pk2},B.{pk1} AS hasCN,{en},{cn} FROM gossip_menu_option A LEFT JOIN locales_gossip_menu_option B ON A.menu_id=B.menu_id AND A.id=B.id
+#    translate: 
+#        update: UPDATE locales_gossip_menu_option SET {CN_FIELD}={CN_VALUE} WHERE menu_id={PK1_VALUE} AND id={PK2_VALUE};;
+#        insert: INSERT INTO locales_gossip_menu_option(menu_id,id,{CN_FIELD}) VALUES({PK1_VALUE},{PK2_VALUE},{CN_VALUE});       
+        

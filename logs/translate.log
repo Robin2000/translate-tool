@@ -1,0 +1,265 @@
+2019-02-01 20:02:35,073 [INFO] xyz.robin2000.config.TranslateTaskLoader.load(43) | lighthope_vmangos loaded!
+2019-02-01 20:02:35,759 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4341 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:02:36,205 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4359 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:02:37,593 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17623 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:02:38,555 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17637 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:02:38,696 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9186 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:02:38,821 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9191 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:02:38,853 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:02:38,868 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:02:40,525 [INFO] xyz.robin2000.task.run.SqlCreate.finish(93) | finished output file :out.sql
+2019-02-01 20:05:01,776 [INFO] xyz.robin2000.config.TranslateTaskLoader.load(43) | lighthope_vmangos loaded!
+2019-02-01 20:05:02,384 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4341 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:05:02,677 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4359 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:05:03,114 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17623 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:05:03,621 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17637 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:05:03,871 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9159 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:05:04,152 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9161 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:05:04,293 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9186 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:05:04,433 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9191 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:05:04,449 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:05:04,464 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:05:04,464 [INFO] xyz.robin2000.task.run.SqlCreate.finish(93) | finished output file :out.sql
+2019-02-01 20:09:25,535 [INFO] xyz.robin2000.config.TranslateTaskLoader.load(43) | lighthope_vmangos loaded!
+2019-02-01 20:09:26,170 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4341 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:09:26,513 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4359 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:09:26,887 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17623 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:09:27,167 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17637 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:09:27,292 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9159 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:09:27,401 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9161 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:09:27,557 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9186 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:09:27,734 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9191 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:09:27,766 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:09:27,781 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:09:27,812 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:09:27,875 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:09:27,875 [INFO] xyz.robin2000.task.run.SqlCreate.finish(93) | finished output file :out.sql
+2019-02-01 20:10:09,063 [INFO] xyz.robin2000.config.TranslateTaskLoader.load(43) | lighthope_vmangos loaded!
+2019-02-01 20:10:09,695 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4341 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:10:10,022 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4359 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:10:10,413 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17623 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:10:10,695 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17637 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:10:10,804 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9159 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:10:10,882 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9161 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:10:11,007 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9186 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:10:11,147 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9191 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:10:11,163 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:10:11,194 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:10:11,194 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:10:11,213 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:10:11,228 [INFO] xyz.robin2000.task.run.SqlCreate.finish(93) | finished output file :out.sql
+2019-02-01 20:12:44,622 [INFO] xyz.robin2000.config.TranslateTaskLoader.load(43) | lighthope_vmangos loaded!
+2019-02-01 20:12:45,246 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4341 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:12:45,598 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4359 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:12:45,991 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17623 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:12:46,272 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17637 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:12:46,381 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9159 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:12:46,443 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9161 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:12:46,578 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9186 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:12:46,703 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9191 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:12:46,718 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:12:46,735 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:12:46,751 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:12:46,766 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:12:46,782 [ERROR] xyz.robin2000.db.DBConManager.lambda$0(71) | SQL excute fail at source:
+SELECT distinct A.ID,B.ID AS hasCN,MaleText,FemaleText,MaleText_loc4,FemaleText_loc4 FROM broadcast_text A LEFT JOIN locales_broadcast_text B ON A.entry=B.entry:
+
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'A.entry' in 'on clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4237)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4169)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2617)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2778)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2834)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2156)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2313)
+	at xyz.robin2000.db.DBConManager.lambda$0(DBConManager.java:53)
+	at xyz.robin2000.db.DBConManager.execSql(DBConManager.java:45)
+	at xyz.robin2000.db.DBConManager.query(DBConManager.java:52)
+	at xyz.robin2000.task.run.TaskRunner.loadQueryData(TaskRunner.java:32)
+	at xyz.robin2000.task.run.TaskRunner.loadData(TaskRunner.java:26)
+	at xyz.robin2000.task.run.TaskRunner.run(TaskRunner.java:21)
+	at xyz.robin2000.App.main(App.java:21)
+2019-02-01 20:12:46,782 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 0 records loaded! at source:SELECT distinct A.ID,B.ID AS hasCN,MaleText,FemaleText,MaleText_loc4,FemaleText_loc4 FROM broadcast_text A LEFT JOIN locales_broadcast_text B ON A.entry=B.entry
+2019-02-01 20:12:46,782 [ERROR] xyz.robin2000.db.DBConManager.lambda$0(71) | SQL excute fail at target:
+SELECT distinct A.ID,B.ID AS hasCN,MaleText,FemaleText,MaleText_loc4,FemaleText_loc4 FROM broadcast_text A LEFT JOIN locales_broadcast_text B ON A.entry=B.entry:
+
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'A.entry' in 'on clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4237)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4169)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2617)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2778)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2834)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2156)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2313)
+	at xyz.robin2000.db.DBConManager.lambda$0(DBConManager.java:53)
+	at xyz.robin2000.db.DBConManager.execSql(DBConManager.java:45)
+	at xyz.robin2000.db.DBConManager.query(DBConManager.java:52)
+	at xyz.robin2000.task.run.TaskRunner.loadQueryData(TaskRunner.java:32)
+	at xyz.robin2000.task.run.TaskRunner.loadData(TaskRunner.java:27)
+	at xyz.robin2000.task.run.TaskRunner.run(TaskRunner.java:21)
+	at xyz.robin2000.App.main(App.java:21)
+2019-02-01 20:12:46,797 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 0 records loaded! at target:SELECT distinct A.ID,B.ID AS hasCN,MaleText,FemaleText,MaleText_loc4,FemaleText_loc4 FROM broadcast_text A LEFT JOIN locales_broadcast_text B ON A.entry=B.entry
+2019-02-01 20:12:46,797 [INFO] xyz.robin2000.task.run.SqlCreate.finish(93) | finished output file :out.sql
+2019-02-01 20:13:18,864 [INFO] xyz.robin2000.config.TranslateTaskLoader.load(43) | lighthope_vmangos loaded!
+2019-02-01 20:13:19,472 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4341 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:13:19,811 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4359 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:13:20,186 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17623 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:13:20,482 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17637 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:13:20,597 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9159 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:13:20,675 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9161 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:13:20,800 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9186 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:13:20,925 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9191 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:13:20,941 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:13:20,957 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:13:20,973 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:13:20,988 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:13:22,591 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 73043 records loaded! at source:SELECT distinct A.ID,B.ID AS hasCN,MaleText,FemaleText,MaleText_loc4,FemaleText_loc4 FROM broadcast_text A LEFT JOIN locales_broadcast_text B ON A.ID=B.ID
+2019-02-01 20:13:25,081 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 73043 records loaded! at target:SELECT distinct A.ID,B.ID AS hasCN,MaleText,FemaleText,MaleText_loc4,FemaleText_loc4 FROM broadcast_text A LEFT JOIN locales_broadcast_text B ON A.ID=B.ID
+2019-02-01 20:13:25,162 [INFO] xyz.robin2000.task.run.SqlCreate.finish(93) | finished output file :out.sql
+2019-02-01 20:27:07,978 [INFO] xyz.robin2000.config.TranslateTaskLoader.load(43) | lighthope_vmangos loaded!
+2019-02-01 20:27:08,631 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4341 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:27:08,997 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4359 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:27:09,379 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17623 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:27:09,706 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17637 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:27:09,869 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9159 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:27:09,972 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9161 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:27:10,102 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9186 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:27:10,232 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9191 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:27:10,254 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:27:10,269 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:27:10,288 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:27:10,303 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:27:11,788 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 73043 records loaded! at source:SELECT distinct A.ID,B.ID AS hasCN,MaleText,FemaleText,MaleText_loc4,FemaleText_loc4 FROM broadcast_text A LEFT JOIN locales_broadcast_text B ON A.ID=B.ID
+2019-02-01 20:27:13,363 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 73043 records loaded! at target:SELECT distinct A.ID,B.ID AS hasCN,MaleText,FemaleText,MaleText_loc4,FemaleText_loc4 FROM broadcast_text A LEFT JOIN locales_broadcast_text B ON A.ID=B.ID
+2019-02-01 20:27:13,453 [ERROR] xyz.robin2000.db.DBConManager.lambda$0(71) | SQL excute fail at source:
+SELECT distinct A.menu_id,A.id,B.menu_id AS hasCN,MaleText,FemaleText,option_text_loc4,box_text_loc4 FROM gossip_menu_option A LEFT JOIN locales_gossip_menu_option B ON A.menu_id=B.menu_id AND A.id=B.id:
+
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'MaleText' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4237)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4169)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2617)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2778)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2834)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2156)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2313)
+	at xyz.robin2000.db.DBConManager.lambda$0(DBConManager.java:53)
+	at xyz.robin2000.db.DBConManager.execSql(DBConManager.java:45)
+	at xyz.robin2000.db.DBConManager.query(DBConManager.java:52)
+	at xyz.robin2000.task.run.TaskRunner.loadQueryData(TaskRunner.java:32)
+	at xyz.robin2000.task.run.TaskRunner.loadData(TaskRunner.java:26)
+	at xyz.robin2000.task.run.TaskRunner.run(TaskRunner.java:21)
+	at xyz.robin2000.App.main(App.java:21)
+2019-02-01 20:27:13,456 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 0 records loaded! at source:SELECT distinct A.menu_id,A.id,B.menu_id AS hasCN,MaleText,FemaleText,option_text_loc4,box_text_loc4 FROM gossip_menu_option A LEFT JOIN locales_gossip_menu_option B ON A.menu_id=B.menu_id AND A.id=B.id
+2019-02-01 20:27:13,462 [ERROR] xyz.robin2000.db.DBConManager.lambda$0(71) | SQL excute fail at target:
+SELECT distinct A.menu_id,B.menu_id AS hasCN,MaleText,FemaleText,option_text_loc4,box_text_loc4 FROM gossip_menu_option A LEFT JOIN locales_gossip_menu_option B ON A.menu_id=B.menu_id AND A.id=B.id:
+
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'MaleText' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4237)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4169)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2617)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2778)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2834)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2156)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2313)
+	at xyz.robin2000.db.DBConManager.lambda$0(DBConManager.java:53)
+	at xyz.robin2000.db.DBConManager.execSql(DBConManager.java:45)
+	at xyz.robin2000.db.DBConManager.query(DBConManager.java:52)
+	at xyz.robin2000.task.run.TaskRunner.loadQueryData(TaskRunner.java:32)
+	at xyz.robin2000.task.run.TaskRunner.loadData(TaskRunner.java:27)
+	at xyz.robin2000.task.run.TaskRunner.run(TaskRunner.java:21)
+	at xyz.robin2000.App.main(App.java:21)
+2019-02-01 20:27:13,463 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 0 records loaded! at target:SELECT distinct A.menu_id,B.menu_id AS hasCN,MaleText,FemaleText,option_text_loc4,box_text_loc4 FROM gossip_menu_option A LEFT JOIN locales_gossip_menu_option B ON A.menu_id=B.menu_id AND A.id=B.id
+2019-02-01 20:27:13,463 [INFO] xyz.robin2000.task.run.SqlCreate.finish(93) | finished output file :out.sql
+2019-02-01 20:27:49,155 [INFO] xyz.robin2000.config.TranslateTaskLoader.load(43) | lighthope_vmangos loaded!
+2019-02-01 20:27:49,807 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4341 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:27:50,175 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4359 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:27:50,590 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17623 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:27:50,923 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17637 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:27:51,058 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9159 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:27:51,140 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9161 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:27:51,269 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9186 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:27:51,392 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9191 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:27:51,417 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:27:51,433 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:27:51,450 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:27:51,462 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:27:52,890 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 73043 records loaded! at source:SELECT distinct A.ID,B.ID AS hasCN,MaleText,FemaleText,MaleText_loc4,FemaleText_loc4 FROM broadcast_text A LEFT JOIN locales_broadcast_text B ON A.ID=B.ID
+2019-02-01 20:27:54,051 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 73043 records loaded! at target:SELECT distinct A.ID,B.ID AS hasCN,MaleText,FemaleText,MaleText_loc4,FemaleText_loc4 FROM broadcast_text A LEFT JOIN locales_broadcast_text B ON A.ID=B.ID
+2019-02-01 20:27:54,264 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 3380 records loaded! at source:SELECT distinct A.menu_id,A.id,B.menu_id AS hasCN,option_text,box_text,option_text_loc4,box_text_loc4 FROM gossip_menu_option A LEFT JOIN locales_gossip_menu_option B ON A.menu_id=B.menu_id AND A.id=B.id
+2019-02-01 20:27:54,358 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 2719 records loaded! at target:SELECT distinct A.menu_id,B.menu_id AS hasCN,option_text,box_text,option_text_loc4,box_text_loc4 FROM gossip_menu_option A LEFT JOIN locales_gossip_menu_option B ON A.menu_id=B.menu_id AND A.id=B.id
+2019-02-01 20:27:54,362 [INFO] xyz.robin2000.task.run.SqlCreate.finish(93) | finished output file :out.sql
+2019-02-01 20:29:30,553 [INFO] xyz.robin2000.config.TranslateTaskLoader.load(43) | lighthope_vmangos loaded!
+2019-02-01 20:29:31,248 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4341 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:29:31,626 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4359 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:29:32,066 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17623 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:29:32,373 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17637 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:29:32,503 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9159 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:29:32,607 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9161 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:29:32,754 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9186 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:29:32,879 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9191 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:29:32,901 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:29:32,916 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:29:32,928 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:29:32,943 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:29:33,005 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 3380 records loaded! at source:SELECT distinct A.menu_id,A.id,B.menu_id AS hasCN,option_text,box_text,option_text_loc4,box_text_loc4 FROM gossip_menu_option A LEFT JOIN locales_gossip_menu_option B ON A.menu_id=B.menu_id AND A.id=B.id
+2019-02-01 20:29:33,040 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 2719 records loaded! at target:SELECT distinct A.menu_id,B.menu_id AS hasCN,option_text,box_text,option_text_loc4,box_text_loc4 FROM gossip_menu_option A LEFT JOIN locales_gossip_menu_option B ON A.menu_id=B.menu_id AND A.id=B.id
+2019-02-01 20:29:33,045 [INFO] xyz.robin2000.task.run.SqlCreate.finish(93) | finished output file :out.sql
+2019-02-01 20:32:49,814 [INFO] xyz.robin2000.config.TranslateTaskLoader.load(43) | lighthope_vmangos loaded!
+2019-02-01 20:32:50,522 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4341 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:32:50,921 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4359 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:32:51,320 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17623 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:32:51,615 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17637 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:32:51,738 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9159 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:32:51,821 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9161 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:32:51,951 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9186 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:32:52,079 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9191 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:32:52,103 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:32:52,138 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:32:52,153 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:32:52,164 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:32:52,204 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 3380 records loaded! at source:SELECT distinct A.menu_id,A.id,B.menu_id AS hasCN,option_text,box_text,option_text_loc4,box_text_loc4 FROM gossip_menu_option A LEFT JOIN locales_gossip_menu_option B ON A.menu_id=B.menu_id AND A.id=B.id
+2019-02-01 20:32:52,252 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 2719 records loaded! at target:SELECT distinct A.menu_id,B.menu_id AS hasCN,option_text,box_text,option_text_loc4,box_text_loc4 FROM gossip_menu_option A LEFT JOIN locales_gossip_menu_option B ON A.menu_id=B.menu_id AND A.id=B.id
+2019-02-01 20:34:02,595 [INFO] xyz.robin2000.config.TranslateTaskLoader.load(43) | lighthope_vmangos loaded!
+2019-02-01 20:34:03,291 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4341 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:34:03,604 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 4359 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4,Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4 FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+2019-02-01 20:34:04,020 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17623 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:34:04,492 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 17637 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,description,name_loc4,description_loc4 FROM item_template A LEFT JOIN locales_item B ON A.entry=B.entry
+2019-02-01 20:34:04,625 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9159 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:34:04,709 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9161 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,name_loc4 FROM gameobject_template A LEFT JOIN locales_gameobject B ON A.entry=B.entry
+2019-02-01 20:34:04,845 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9186 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:34:04,995 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 9191 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,subname,name_loc4,subname_loc4 FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+2019-02-01 20:34:05,018 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:34:05,032 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 1081 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,name,nameLoc4 FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+2019-02-01 20:34:05,048 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at source:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:34:05,065 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 453 records loaded! at target:SELECT distinct A.entry,B.entry AS hasCN,icon_name,icon_name_loc4 FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+2019-02-01 20:34:05,113 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 3380 records loaded! at source:SELECT distinct A.menu_id,A.id,B.menu_id AS hasCN,option_text,box_text,option_text_loc4,box_text_loc4 FROM gossip_menu_option A LEFT JOIN locales_gossip_menu_option B ON A.menu_id=B.menu_id AND A.id=B.id
+2019-02-01 20:34:05,159 [INFO] xyz.robin2000.task.run.TaskRunner.loadQueryData(34) | 3409 records loaded! at target:SELECT distinct A.menu_id,A.id,B.menu_id AS hasCN,option_text,box_text,option_text_loc4,box_text_loc4 FROM gossip_menu_option A LEFT JOIN locales_gossip_menu_option B ON A.menu_id=B.menu_id AND A.id=B.id
+2019-02-01 20:34:33,754 [INFO] xyz.robin2000.task.run.SqlCreate.finish(93) | finished output file :out.sql

@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.lang3.StringUtils;
+
 import xyz.robin2000.utils.MyStr;
 
 public class QueryData {
@@ -94,11 +96,11 @@ public class QueryData {
 
 	public String getQuerySql() {
 		if(querySql==null) {
-			querySql=query.replaceAll("\\{pk1\\}", pk1);
-			querySql=querySql.replaceAll("\\{pk2\\}", pk2);
-			querySql=querySql.replaceAll("\\{pk3\\}", pk3);
-			querySql=querySql.replaceAll("\\{en\\}", en);
-			querySql=querySql.replaceAll("\\{cn\\}", cn);
+			querySql=StringUtils.replace(query, "{pk1}", pk1);
+			querySql=StringUtils.replace(querySql, "{pk2}", pk2);
+			querySql=StringUtils.replace(querySql, "{pk3}", pk3);
+			querySql=StringUtils.replace(querySql, "{en}", en);
+			querySql=StringUtils.replace(querySql, "{cn}", cn);
 		}
 		return querySql;
 	}
