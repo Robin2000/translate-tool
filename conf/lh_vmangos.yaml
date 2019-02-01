@@ -1,0 +1,50 @@
+title: lighthope_vmangos
+task:
+-   table: locales_quest
+    source:
+        pk1: entry
+        en: Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4
+        cn: Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4
+        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+        pkMatch: true 
+    target:
+        pk1: entry
+        en: Title,Details,Objectives,OfferRewardText,RequestItemsText,EndText,ObjectiveText1,ObjectiveText2,ObjectiveText3,ObjectiveText4
+        cn: Title_loc4,Details_loc4,Objectives_loc4,OfferRewardText_loc4,RequestItemsText_loc4,EndText_loc4,ObjectiveText1_loc4,ObjectiveText2_loc4,ObjectiveText3_loc4,ObjectiveText4_loc4
+        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM quest_template A LEFT JOIN locales_quest B ON A.entry=B.entry
+    translate: 
+        update: UPDATE locales_quest SET {CN_FIELD}={CN_VALUE} WHERE entry={PK1_VALUE};
+        insert: INSERT INTO locales_quest(entry,{CN_FIELD}) VALUES({PK1_VALUE},{CN_VALUE});
+
+-   table: locales_creature
+    source:
+        pk1: entry
+        en: name,subname
+        cn: name_loc4,subname_loc4
+        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+        pkMatch: true
+    target:
+        pk1: entry
+        en: name,subname
+        cn: name_loc4,subname_loc4
+        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM creature_template A LEFT JOIN locales_creature B ON A.entry=B.entry
+    translate: 
+        update: UPDATE locales_creature SET {CN_FIELD}={CN_VALUE} WHERE entry={PK1_VALUE};
+        insert: INSERT INTO locales_creature(entry,{CN_FIELD}) VALUES({PK1_VALUE},{CN_VALUE});
+        
+-   table: locales_area
+    source:
+        pk1: entry
+        en: name
+        cn: nameLoc4
+        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+    target:
+        pk1: entry
+        en: name
+        cn: nameLoc4
+        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM area_template A LEFT JOIN locales_area B ON A.entry=B.entry
+    translate: 
+        update: UPDATE locales_area SET {CN_FIELD}={CN_VALUE} WHERE entry={PK1_VALUE};
+        insert: INSERT INTO locales_area(entry,{CN_FIELD}) VALUES({PK1_VALUE},{CN_VALUE});
+        
+
