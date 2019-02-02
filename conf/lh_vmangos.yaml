@@ -79,20 +79,20 @@ task:
         update: UPDATE locales_area SET {CN_FIELD}={CN_VALUE} WHERE entry={PK1_VALUE};
         insert: INSERT INTO locales_area(entry,{CN_FIELD}) VALUES({PK1_VALUE},{CN_VALUE});
         
--   table: locales_points_of_interest
-    source:
-        pk1: entry
-        en: icon_name
-        cn: icon_name_loc4
-        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
-    target:
-        pk1: entry
-        en: icon_name
-        cn: icon_name_loc4
-        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
-    translate: 
-        update: UPDATE locales_points_of_interest SET {CN_FIELD}={CN_VALUE} WHERE entry={PK1_VALUE};
-        insert: INSERT INTO locales_points_of_interest(entry,{CN_FIELD}) VALUES({PK1_VALUE},{CN_VALUE});
+#-   table: locales_points_of_interest
+#    source:
+#        pk1: entry
+#        en: icon_name
+#        cn: icon_name_loc4
+#        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+#    target:
+#        pk1: entry
+#        en: icon_name
+#        cn: icon_name_loc4
+#        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM points_of_interest A LEFT JOIN locales_points_of_interest B ON A.entry=B.entry
+#    translate: 
+#        update: UPDATE locales_points_of_interest SET {CN_FIELD}={CN_VALUE} WHERE entry={PK1_VALUE};
+#        insert: INSERT INTO locales_points_of_interest(entry,{CN_FIELD}) VALUES({PK1_VALUE},{CN_VALUE});
 
 #-   table: locales_broadcast_text
 #    source:
@@ -126,3 +126,32 @@ task:
 #        update: UPDATE locales_gossip_menu_option SET {CN_FIELD}={CN_VALUE} WHERE menu_id={PK1_VALUE} AND id={PK2_VALUE};;
 #        insert: INSERT INTO locales_gossip_menu_option(menu_id,id,{CN_FIELD}) VALUES({PK1_VALUE},{PK2_VALUE},{CN_VALUE});       
         
+-   table: locales_page_text
+    source:
+        pk1: entry
+        en: Text
+        cn: Text_loc4
+        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM page_text A LEFT JOIN locales_page_text B ON A.entry=B.entry
+    target:
+        pk1: entry
+        en: Text
+        cn: Text_loc4
+        query: SELECT distinct A.{pk1},B.{pk1} AS hasCN,{en},{cn} FROM page_text A LEFT JOIN locales_page_text B ON A.entry=B.entry
+    translate: 
+        update: UPDATE locales_page_text SET {CN_FIELD}={CN_VALUE} WHERE entry={PK1_VALUE};
+        insert: INSERT INTO locales_page_text(entry,{CN_FIELD}) VALUES({PK1_VALUE},{CN_VALUE});
+
+-   table: mangos_string
+    source:
+        pk1: entry
+        en: content_default
+        cn: content_loc4
+        query: SELECT distinct {pk1},1 AS hasCN,{en},{cn} FROM mangos_string 
+    target:
+        pk1: entry
+        en: content_default
+        cn: content_loc4
+        query: SELECT distinct {pk1},1 AS hasCN,{en},{cn} FROM mangos_string 
+    translate: 
+        update: UPDATE mangos_string SET {CN_FIELD}={CN_VALUE} WHERE entry={PK1_VALUE};
+        insert: INSERT INTO mangos_string(entry,{CN_FIELD}) VALUES({PK1_VALUE},{CN_VALUE});
